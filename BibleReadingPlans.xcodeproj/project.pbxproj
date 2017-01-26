@@ -8,8 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8E727B361E34FDCE007FE780 /* BibleReadingPlans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E727B2C1E34FDCE007FE780 /* BibleReadingPlans.framework */; };
-		8E727B3B1E34FDCE007FE780 /* BibleReadingPlansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B3A1E34FDCE007FE780 /* BibleReadingPlansTests.swift */; };
 		8E727B3D1E34FDCE007FE780 /* BibleReadingPlans.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E727B2F1E34FDCE007FE780 /* BibleReadingPlans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E727B4B1E34FDEE007FE780 /* ReadingPlanDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B461E34FDEE007FE780 /* ReadingPlanDataTypes.swift */; };
+		8E727B4C1E34FDEE007FE780 /* BasicReadingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B471E34FDEE007FE780 /* BasicReadingPlan.swift */; };
+		8E727B4D1E34FDEE007FE780 /* PlanJSONInitialisers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B481E34FDEE007FE780 /* PlanJSONInitialisers.swift */; };
+		8E727B4E1E34FDEE007FE780 /* LenientReadingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B491E34FDEE007FE780 /* LenientReadingPlan.swift */; };
+		8E727B4F1E34FDEE007FE780 /* BibleEaterPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B4A1E34FDEE007FE780 /* BibleEaterPlan.swift */; };
+		8E727B551E34FE0F007FE780 /* BasicReadingPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B501E34FE0F007FE780 /* BasicReadingPlanTests.swift */; };
+		8E727B561E34FE0F007FE780 /* LenientReadingPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B511E34FE0F007FE780 /* LenientReadingPlanTests.swift */; };
+		8E727B571E34FE0F007FE780 /* ReadingHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B521E34FE0F007FE780 /* ReadingHistoryTests.swift */; };
+		8E727B581E34FE0F007FE780 /* BibleEaterPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B531E34FE0F007FE780 /* BibleEaterPlanTests.swift */; };
+		8E727B591E34FE0F007FE780 /* BibleEaterModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E727B541E34FE0F007FE780 /* BibleEaterModelTests.swift */; };
+		8EA5FB3F1E3AA8BA00E9C3CC /* ReadingRecordProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5FB3E1E3AA8BA00E9C3CC /* ReadingRecordProtocol.swift */; };
+		8EF622E91E351D2500EEBFF3 /* FakeManagedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622E81E351D2500EEBFF3 /* FakeManagedObjects.swift */; };
+		8EF622EB1E3581EE00EEBFF3 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622EA1E3581EE00EEBFF3 /* DateExtensions.swift */; };
+		8EF622F01E3582B500EEBFF3 /* mcheyne.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EF622ED1E3582B500EEBFF3 /* mcheyne.json */; };
+		8EF622F11E3582B500EEBFF3 /* navigators.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EF622EE1E3582B500EEBFF3 /* navigators.json */; };
+		8EF622F21E3582B500EEBFF3 /* bibleeater.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EF622EF1E3582B500EEBFF3 /* bibleeater.json */; };
+		8EF622F51E3584EC00EEBFF3 /* ReadingSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622F41E3584EC00EEBFF3 /* ReadingSuggestion.swift */; };
+		8EF622F71E35850900EEBFF3 /* ReadingDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622F61E35850900EEBFF3 /* ReadingDays.swift */; };
+		8EF622F91E35853000EEBFF3 /* ReadingPlanPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622F81E35853000EEBFF3 /* ReadingPlanPeriod.swift */; };
+		8EF622FB1E35854C00EEBFF3 /* ReadingPlanSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622FA1E35854C00EEBFF3 /* ReadingPlanSection.swift */; };
+		8EF622FD1E35857400EEBFF3 /* ReadingPlanJSONInitialisers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF622FC1E35857400EEBFF3 /* ReadingPlanJSONInitialisers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +47,28 @@
 		8E727B2F1E34FDCE007FE780 /* BibleReadingPlans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BibleReadingPlans.h; sourceTree = "<group>"; };
 		8E727B301E34FDCE007FE780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E727B351E34FDCE007FE780 /* BibleReadingPlansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleReadingPlansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E727B3A1E34FDCE007FE780 /* BibleReadingPlansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReadingPlansTests.swift; sourceTree = "<group>"; };
 		8E727B3C1E34FDCE007FE780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E727B461E34FDEE007FE780 /* ReadingPlanDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingPlanDataTypes.swift; sourceTree = "<group>"; };
+		8E727B471E34FDEE007FE780 /* BasicReadingPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicReadingPlan.swift; sourceTree = "<group>"; };
+		8E727B481E34FDEE007FE780 /* PlanJSONInitialisers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanJSONInitialisers.swift; sourceTree = "<group>"; };
+		8E727B491E34FDEE007FE780 /* LenientReadingPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LenientReadingPlan.swift; sourceTree = "<group>"; };
+		8E727B4A1E34FDEE007FE780 /* BibleEaterPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleEaterPlan.swift; sourceTree = "<group>"; };
+		8E727B501E34FE0F007FE780 /* BasicReadingPlanTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicReadingPlanTests.swift; sourceTree = "<group>"; };
+		8E727B511E34FE0F007FE780 /* LenientReadingPlanTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LenientReadingPlanTests.swift; sourceTree = "<group>"; };
+		8E727B521E34FE0F007FE780 /* ReadingHistoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingHistoryTests.swift; sourceTree = "<group>"; };
+		8E727B531E34FE0F007FE780 /* BibleEaterPlanTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleEaterPlanTests.swift; sourceTree = "<group>"; };
+		8E727B541E34FE0F007FE780 /* BibleEaterModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleEaterModelTests.swift; sourceTree = "<group>"; };
+		8EA5FB3E1E3AA8BA00E9C3CC /* ReadingRecordProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingRecordProtocol.swift; sourceTree = "<group>"; };
+		8EF622E81E351D2500EEBFF3 /* FakeManagedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeManagedObjects.swift; sourceTree = "<group>"; };
+		8EF622EA1E3581EE00EEBFF3 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		8EF622ED1E3582B500EEBFF3 /* mcheyne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mcheyne.json; sourceTree = "<group>"; };
+		8EF622EE1E3582B500EEBFF3 /* navigators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = navigators.json; sourceTree = "<group>"; };
+		8EF622EF1E3582B500EEBFF3 /* bibleeater.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bibleeater.json; sourceTree = "<group>"; };
+		8EF622F41E3584EC00EEBFF3 /* ReadingSuggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingSuggestion.swift; sourceTree = "<group>"; };
+		8EF622F61E35850900EEBFF3 /* ReadingDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingDays.swift; sourceTree = "<group>"; };
+		8EF622F81E35853000EEBFF3 /* ReadingPlanPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingPlanPeriod.swift; sourceTree = "<group>"; };
+		8EF622FA1E35854C00EEBFF3 /* ReadingPlanSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingPlanSection.swift; sourceTree = "<group>"; };
+		8EF622FC1E35857400EEBFF3 /* ReadingPlanJSONInitialisers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingPlanJSONInitialisers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +111,16 @@
 		8E727B2E1E34FDCE007FE780 /* BibleReadingPlans */ = {
 			isa = PBXGroup;
 			children = (
+				8EF622F31E3584CC00EEBFF3 /* BibleEater */,
+				8E727B461E34FDEE007FE780 /* ReadingPlanDataTypes.swift */,
+				8E727B471E34FDEE007FE780 /* BasicReadingPlan.swift */,
+				8E727B481E34FDEE007FE780 /* PlanJSONInitialisers.swift */,
+				8E727B491E34FDEE007FE780 /* LenientReadingPlan.swift */,
 				8E727B2F1E34FDCE007FE780 /* BibleReadingPlans.h */,
 				8E727B301E34FDCE007FE780 /* Info.plist */,
+				8EF622EA1E3581EE00EEBFF3 /* DateExtensions.swift */,
+				8EF622F61E35850900EEBFF3 /* ReadingDays.swift */,
+				8EA5FB3E1E3AA8BA00E9C3CC /* ReadingRecordProtocol.swift */,
 			);
 			path = BibleReadingPlans;
 			sourceTree = "<group>";
@@ -80,10 +128,38 @@
 		8E727B391E34FDCE007FE780 /* BibleReadingPlansTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E727B3A1E34FDCE007FE780 /* BibleReadingPlansTests.swift */,
+				8EF622EC1E3582A500EEBFF3 /* Resources */,
+				8EF622E81E351D2500EEBFF3 /* FakeManagedObjects.swift */,
+				8E727B501E34FE0F007FE780 /* BasicReadingPlanTests.swift */,
+				8E727B511E34FE0F007FE780 /* LenientReadingPlanTests.swift */,
+				8E727B521E34FE0F007FE780 /* ReadingHistoryTests.swift */,
+				8E727B531E34FE0F007FE780 /* BibleEaterPlanTests.swift */,
+				8E727B541E34FE0F007FE780 /* BibleEaterModelTests.swift */,
 				8E727B3C1E34FDCE007FE780 /* Info.plist */,
 			);
 			path = BibleReadingPlansTests;
+			sourceTree = "<group>";
+		};
+		8EF622EC1E3582A500EEBFF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EF622ED1E3582B500EEBFF3 /* mcheyne.json */,
+				8EF622EE1E3582B500EEBFF3 /* navigators.json */,
+				8EF622EF1E3582B500EEBFF3 /* bibleeater.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EF622F31E3584CC00EEBFF3 /* BibleEater */ = {
+			isa = PBXGroup;
+			children = (
+				8E727B4A1E34FDEE007FE780 /* BibleEaterPlan.swift */,
+				8EF622F41E3584EC00EEBFF3 /* ReadingSuggestion.swift */,
+				8EF622F81E35853000EEBFF3 /* ReadingPlanPeriod.swift */,
+				8EF622FA1E35854C00EEBFF3 /* ReadingPlanSection.swift */,
+				8EF622FC1E35857400EEBFF3 /* ReadingPlanJSONInitialisers.swift */,
+			);
+			name = BibleEater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E727B401E34FDCE007FE780 /* Build configuration list for PBXNativeTarget "BibleReadingPlans" */;
 			buildPhases = (
+				8E727B5A1E34FE9B007FE780 /* ShellScript */,
 				8E727B271E34FDCE007FE780 /* Sources */,
 				8E727B281E34FDCE007FE780 /* Frameworks */,
 				8E727B291E34FDCE007FE780 /* Headers */,
@@ -188,16 +265,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF622F01E3582B500EEBFF3 /* mcheyne.json in Resources */,
+				8EF622F21E3582B500EEBFF3 /* bibleeater.json in Resources */,
+				8EF622F11E3582B500EEBFF3 /* navigators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E727B5A1E34FE9B007FE780 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\necho $PWD\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E727B271E34FDCE007FE780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF622EB1E3581EE00EEBFF3 /* DateExtensions.swift in Sources */,
+				8E727B4C1E34FDEE007FE780 /* BasicReadingPlan.swift in Sources */,
+				8EF622E91E351D2500EEBFF3 /* FakeManagedObjects.swift in Sources */,
+				8E727B4D1E34FDEE007FE780 /* PlanJSONInitialisers.swift in Sources */,
+				8EF622F51E3584EC00EEBFF3 /* ReadingSuggestion.swift in Sources */,
+				8E727B4F1E34FDEE007FE780 /* BibleEaterPlan.swift in Sources */,
+				8EF622F91E35853000EEBFF3 /* ReadingPlanPeriod.swift in Sources */,
+				8EF622FB1E35854C00EEBFF3 /* ReadingPlanSection.swift in Sources */,
+				8E727B4B1E34FDEE007FE780 /* ReadingPlanDataTypes.swift in Sources */,
+				8EF622FD1E35857400EEBFF3 /* ReadingPlanJSONInitialisers.swift in Sources */,
+				8E727B4E1E34FDEE007FE780 /* LenientReadingPlan.swift in Sources */,
+				8EF622F71E35850900EEBFF3 /* ReadingDays.swift in Sources */,
+				8EA5FB3F1E3AA8BA00E9C3CC /* ReadingRecordProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E727B3B1E34FDCE007FE780 /* BibleReadingPlansTests.swift in Sources */,
+				8E727B551E34FE0F007FE780 /* BasicReadingPlanTests.swift in Sources */,
+				8E727B591E34FE0F007FE780 /* BibleEaterModelTests.swift in Sources */,
+				8E727B561E34FE0F007FE780 /* LenientReadingPlanTests.swift in Sources */,
+				8E727B581E34FE0F007FE780 /* BibleEaterPlanTests.swift in Sources */,
+				8E727B571E34FE0F007FE780 /* ReadingHistoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +473,7 @@
 		8E727B441E34FDCE007FE780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EE87GK4BE2;
 				INFOPLIST_FILE = BibleReadingPlansTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +486,7 @@
 		8E727B451E34FDCE007FE780 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = EE87GK4BE2;
 				INFOPLIST_FILE = BibleReadingPlansTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +515,7 @@
 				8E727B421E34FDCE007FE780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E727B431E34FDCE007FE780 /* Build configuration list for PBXNativeTarget "BibleReadingPlansTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +524,7 @@
 				8E727B451E34FDCE007FE780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

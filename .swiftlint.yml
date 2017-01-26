@@ -1,0 +1,10 @@
+opt_in_rules: 
+  - empty_count
+  - closure_end_indentation
+  - closure_spacing
+  - conditional_returns_on_newline
+    #- file_header
+  - force_unwrapping
+  - first_where
+line_length: 150
+reporter: "xcode"
